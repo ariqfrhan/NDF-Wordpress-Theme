@@ -1,0 +1,274 @@
+ul.film{
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    flex-wrap: wrap;
+    width: 100%;
+}
+ul.film li{
+    padding: 5px 2.5px;
+    width: 33.3%;
+    height: 275px;
+    flex-grow: 1;
+    min-width: 300px;
+    position: relative;
+    overflow: hidden;
+}
+ul.film li #filmbox-desc{
+    margin: 5px 2.5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgb(0, 0, 0, .5);
+    transition: 1s;
+}
+ul.film li #filmbox-desc #descfilm{
+    margin: auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif!important;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+#descfilm-title{
+    font-size: 25px;
+}
+ul.film li:hover #filmbox-desc{
+    opacity: 0;
+    transition: 1s;
+}
+
+ul.film li #filmbox-desc-2{
+    /* padding: 5px 2.5px; */
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    background-color: rgb(0, 0, 0, .5);
+    transform: translateY(300px);
+    transition: 2.5s;
+}
+ul.film li #filmbox-desc-2 #descfilm-2{
+    margin: 10% auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif!important;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+#descfilm-title-2{
+    font-size: 25px;
+}
+ul.film li:hover #filmbox-desc-2{
+    transform: translateY(0px);
+    transition: 2.5s;
+}
+
+#filmbox-img img{
+    width: 100%;
+    height: 275px;
+    object-fit: cover;
+}
+
+#page-film{
+    display: flex;
+}
+#page-film a{
+    margin: 25px auto 0;
+}
+#page-film a button{
+    border: none;
+    border-radius: 12.5px;
+    background-color: #7F578A;
+    font-family: 'Poppins', sans-serif!important;
+    color: white;
+    padding: 10px 15px;
+    text-transform: capitalize;
+}
+#page-film a button:hover{
+    background-color: transparent;
+    color: #7F578A;
+    font-weight: 700;
+}
+
+/* page film */
+#content-page-film {
+    position: relative;
+    background-color: rgba(138, 87, 128, 0.831241);
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+#content-page-film #poster-film{
+    width: 65%;
+    height: 65%;
+    right: 0;
+    position: absolute;
+}
+#content-page-film #poster-film img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#content-page-film #poster-film #poster-film-border{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    box-shadow: inset 70px 0 50px 0 rgb(157, 115, 149),
+    inset 0 -90px 60px 0 rgb(157, 115, 149);;
+}
+#content-page-film #judul {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    padding: 75px;
+    padding-bottom: 0;
+    font-size: 35px;
+    max-width: calc(100% - 100px);
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Poppins';
+}
+#content-page-film #judul h1 {
+    font-size: 50px;
+  width: 50%;
+}
+#content-page-film #rating {
+    position: relative;
+    z-index: 1;
+    padding: 0 75px 15px;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+#content-page-film #rating li{
+    list-style: none;
+    font-family: 'Poppins';
+    margin-right: 5px;
+}
+#content-page-film #rating li::after{
+    content: '|';
+    margin-left: 5px;
+}
+#content-page-film #rating li:last-child::after{
+    content: none;
+}
+#content-page-film #genre {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    font-size: 18px;
+    padding: 0 75px 15px;
+}
+#content-page-film #genre li{
+    list-style: none;
+    color: white;
+    background-color: #F3BB2C;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 2.5px 10px;
+    font-family: 'Poppins';
+    margin-right: 10px;
+}
+#content-page-film #sutradara{
+    position: relative;
+    z-index: 1;
+    color: white;
+    display: flex;
+    font-family: 'Poppins';
+    padding: 0 75px 15px;
+    font-size: 20px;
+}
+#content-page-film #sutradara h4{
+    font-weight: 100;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+#content-page-film #desc-film{
+    position: relative;
+    z-index: 1;
+    padding: 0 75px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: white;
+    text-align: justify;
+}
+#content-page-film #desc-film label{
+    font-size: 20px;
+}
+#content-page-film #btn-trailer{
+    padding:25px 75px;
+}
+#content-page-film #btn-trailer button{
+    background-color: #F3BB2C;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    padding: 7.5px 17.5px;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: white;
+  position: relative;
+    z-index: 1;
+}
+#content-page-film #btn-trailer button i{
+    margin-right: 10px;
+}
+.ornament {
+    width: 300px;
+    height: 300px;
+    background: #F3BB2C;
+    filter: blur(150px);
+}
+#ornament-wrapper .top{
+    top: 0;
+    position: absolute;
+    transform: translateX(-50px) translateY(-50px);
+}
+#ornament-wrapper .bottom{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    transform: translateX(50px) translateY(50px);
+}
+@media screen and (max-width: 650px) {
+    #content-page-film #judul,
+    #content-page-film #rating,
+    #content-page-film #genre,
+    #content-page-film #sutradara,
+    #content-page-film #desc-film,
+    #content-page-film #btn-trailer
+    {
+        padding-left: 25px;
+        padding-right: 25px;
+        max-width: 100%;
+    }        
+    #content-page-film #poster-film{
+        width: 90%;
+        height: 50%;
+    }
+    #content-page-film #btn-trailer{
+        display: flex;
+    }
+    #content-page-film #btn-trailer button{
+    	margin: auto;
+    }
+    #content-page-film #judul h1 {
+      width: 100%;
+    }
+}
+@media screen and (max-width: 400px) {
+    #content-page-film #poster-film{
+        width: 100%;
+        height: 30%;
+    }
+}
