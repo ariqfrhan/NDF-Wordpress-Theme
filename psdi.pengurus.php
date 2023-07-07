@@ -1,213 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        #content-post{
-            padding-right: 0;
-        }
-        #title-post{
+        /* Hero */
+        #title-post {
             display: none;
         }
-		@media (max-width: 600px) {
-            #content-post{
-                padding: 75px 0;
+
+        #content-post {
+            padding: 0;
+            background: linear-gradient(90deg, rgba(127, 87, 138, 0.3172119487908962) 0%, rgba(243, 187, 44, 0.375875350140056) 86%);
+        }
+
+        #vr-glass {
+            display: none;
+        }
+
+        #hero {
+            height: auto;
+            padding-top: 15vh;
+            padding-bottom: 10vh;
+            font-family: 'Philosopher', sans-serif;
+        }
+
+        /* Judul */
+        #nama-bidang {
+            background-color: #8A5780;
+            color: white;
+            padding: 5px;
+            font-size: 52px;
+            font-weight: bold;
+        }
+
+        #panjang-bidang {
+            background-color: #F3BC2C;
+            color: #32524E;
+            padding: 5px;
+            margin-top: -1%;
+            font-size: 32px;
+        }
+
+        /* Proker-Kabid */
+        #kabid-proker {
+            padding-top: 1.5%;
+        }
+
+        #tupoksi {
+            border-radius: 10px;
+            background-color: #8A5780;
+            color: white;
+            padding: 25px;
+            padding-bottom: 10px;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 18px;
+            text-align: justify;
+        }
+
+        #proker {
+            border-radius: 10px;
+            background-color: #8A5780;
+            color: white;
+            padding: 28px;
+            padding-bottom: 5px;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 18px;
+        }
+
+        #proker li {
+            padding-top: 2px;
+        }
+
+        #foto-bph {
+            width: 53vw;
+        }
+
+        #foto-staff{
+            width: 39vw;
+        }
+
+        /* Staff */
+
+        #title-staff {
+            background-color: #F3BC2C;
+            color: #32524E;
+            padding: 5px;
+            font-size: 32px;
+        }
+
+        @media only screen and (max-width: 428px) {
+
+            #foto-bph {
+                padding-top: 13px;
+                width: 95vw;
+            }
+
+            #foto-staff {
+                width: 95vw;
+            }
+
+            #tupoksi p{
+                font-size: 12px;
+            }
+
+            #proker {
+                padding: 24px;
+                padding-bottom: 5px;
+                font-size: 12px;
+            }
+        }
+
+        @media only screen and (min-width: 768px) and (max-width:1194px) {
+
+            #foto-bph {
+                padding-top: 13px;
+                width: 83.5vw;
+            }
+
+            #foto-staff {
+                width: 83.5vw;
+            }
+            
+        }
+
+        @media only screen and (min-width: 768px) and (max-width:1194px) and (orientation:landscape) {
+
+            #foto-bph {
+                width: 625px;
+            }
+
+            #foto-staff {
+                width: 38.5vw;
+            }
+
+            #tupoksi {
+                padding: 24px;
+                padding-bottom: 5px;
+                font-size: 14px;
+            }
+
+            #tupoksi p{
+                font-size: 12px;
+            }
+
+            #proker {
+                padding: 24px;
+                padding-bottom: 5px;
+                font-size: 14px;
             }
         }
     </style>
 </head>
+
 <body>
-    <div id="pengurus-box">
-        <div class="pengurus-bg">
-            <div id="top-pengurus">
-                <div class="logo-pengurus">
-                    <img src="https://res.cloudinary.com/dndidjvfj/images/v1665510779/Asset-6-1-4/Asset-6-1-4.png?_i=AA" alt="logo-psdi">
+    <header id="hero">
+        <div class="container">
+            <div data-aos="zoom-in" class="col-lg-12">
+                <h1 id="nama-bidang" class="text-center">PSDI</h1>
+                <h2 id="panjang-bidang" class="text-center fw-bold">Pengembangan Sumber Daya Internal</h2>
+            </div>
+
+            <div id="kabid-proker" class="row">
+                <div data-aos="fade-right" class="col-lg-4">
+                    <div id="tupoksi" class="col">
+                        <h3 class="fw-bold">Tupoksi</h3>
+                        <p class="pt-2">Merancang dan melaksanakan segala kegiatan yang berhubungan dengan distribusi, ekshibisi, dan apresiasi film-film hasil karya Nol Derajat Film.</p>
+                    </div>
+                    <div id="proker" class="col mt-4">
+                        <h3 class="fw-bold">Program Kerja</h3>
+                        <ul class="pt-1 pb-2">
+                            <li>Staff of The Month</li>
+                            <li>Staff Report</li>
+                            <li>Suara Rakyat</li>
+                            <li>Makrab Nolder</li>
+                            <li>Upgrading Kepengurusan</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="desc-pengurus">
-                    <div class="title-pengurus">psdi</div>
-                    <div class="isi-pengurus">pengembangan sumber daya internal</div>
-                    <div class="content-desc-pengurus">
-                        Program Kerja: <br>Staff of The Month, Staff Report, Suara Rakyat, Makrab Nolder, Upgrading Kepengurusan dan Organizational Training, Birthday Reminder.
+                <div class="col-lg-8">
+                    <img data-aos="fade-left" id="foto-bph" src="https://nolderajat.ub.ac.id/wp-content/uploads/2023/07/HUMI-BPH-card.png">
+                </div>
+            </div>
+
+            <div id="staff" class="pt-4">
+                <div class="col-lg-12">
+                    <h1 data-aos="zoom-in" id="title-staff" class="text-center fw-bold">Staff</h1>
+                </div>
+
+                <div class="row justify-content-center ">
+                    <div data-aos="fade-right" class="col-lg-6 mt-3">
+                        <img id="foto-staff" src="https://nolderajat.ub.ac.id/wp-content/uploads/2023/07/HUMI_Staff-card-1.png">
+                    </div>
+                    <div data-aos="fade-left" class="col-lg-6 mt-3">
+                        <img id="foto-staff" src="https://nolderajat.ub.ac.id/wp-content/uploads/2023/07/HUMI_Staff-card-2.png">
+                    </div>
+                    <div data-aos="fade-up" class="col-lg-6 mt-4">
+                        <img id="foto-staff" src="https://nolderajat.ub.ac.id/wp-content/uploads/2023/07/HUMI_Staff-card-3.png">
+                    </div>
+                    <div data-aos="fade-up" class="col-lg-6 mt-4">
+                        <img id="foto-staff" src="https://nolderajat.ub.ac.id/wp-content/uploads/2023/07/HUMI_Staff-card-4.png">
                     </div>
                 </div>
             </div>
-            <div id="division">
-                <ul>
-                    <li style="display:flex; width: 100%;">
-                        <div class="division-box">
-                            <div class="division-foto">
-                                <div class="division-foto-bg-2"></div>
-                                <div class="division-foto-bg"></div>
-                                <img class="stuck" src="https://res.cloudinary.com/dndidjvfj/images/v1665511066/texture-1-2-1/texture-1-2-1.png?_i=AA" alt="foto ketua psdi">
-                            </div>
-                            <div class="division-bg"></div>
-                        </div>
-                        <div class="division-name">
-                            <div class="title-division-name-stuck">
-                                Faraz Beniqno Muhammad Fauzan
-                            </div>
-                            <div class="job-division-stuck">
-                                ketua bidang
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="division-box">
-                            <div class="division-foto">
-                                <div class="division-foto-bg-2"></div>
-                                <div class="division-foto-bg"></div>
-                                <img src="https://res.cloudinary.com/dndidjvfj/images/v1665511061/texture-2/texture-2.png?_i=AA" alt="foto wakil ketua">
-                                <img class="aktif" src="https://res.cloudinary.com/dndidjvfj/images/v1665511050/Group-361-1/Group-361-1.png?_i=AA" alt="foto staff">
-                            </div>
-                            <div class="division-bg"></div>
-                        </div>
-                        <div class="division-name">
-                            <div class="title-division-name aktif">
-                                Aurora Stevani Naibaho
-                            </div>
-                            <div class="title-division-name">
-                                Farah Syifa Fadhila
-                            </div>
-                            <div class="job-division aktif">
-                                wakil ketua bidang
-                            </div>
-                            <div class="job-division">
-                                staff
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="division-box">
-                            <div class="division-foto">
-                                <div class="division-foto-bg-2"></div>
-                                <div class="division-foto-bg"></div>
-                                <img src="https://res.cloudinary.com/dndidjvfj/images/v1665511083/PSDI_Kerenh-Emanuella-3-1/PSDI_Kerenh-Emanuella-3-1.png?_i=AA" alt="foto wakil ketua">
-                                <img class="aktif" src="https://res.cloudinary.com/dndidjvfj/images/v1665511074/PSDI_Nabillah_-1-1/PSDI_Nabillah_-1-1.png?_i=AA" alt="foto staff">
-                            </div>
-                            <div class="division-bg"></div>
-                        </div>
-                        <div class="division-name">
-                            <div class="title-division-name aktif">
-                                Kerenhapukh Emmanuella G. W.
-                            </div>
-                            <div class="title-division-name">
-                                Nabillah Ayudia Sari
-                            </div>
-                            <div class="job-division aktif">
-                                wakil ketua bidang
-                            </div>
-                            <div class="job-division">
-                                staff
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="division-box">
-                            <div class="division-foto">
-                                <div class="division-foto-bg-2"></div>
-                                <div class="division-foto-bg"></div>
-                                <img src="https://res.cloudinary.com/dndidjvfj/images/v1666231056/PSDI_Adzrian-Bintang-Ramadhan/PSDI_Adzrian-Bintang-Ramadhan.png?_i=AA" alt="foto staff">
-                                <img class="aktif" src="https://res.cloudinary.com/dndidjvfj/images/v1665511054/Group-360-1/Group-360-1.png?_i=AA" alt="foto staff">
-                            </div>
-                            <div class="division-bg"></div>
-                        </div>
-                        <div class="division-name">
-                            <div class="title-division-name aktif">
-                                Adzrian Bintang Ramadhan
-                            </div>
-                            <div class="title-division-name">
-                                Jasmine Rafifah Fathia Putri
-                            </div>
-                            <div class="job-division-stuck">
-                                staff
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="division-box">
-                            <div class="division-foto">
-                                <div class="division-foto-bg-2"></div>
-                                <div class="division-foto-bg"></div>
-                                <img src="https://res.cloudinary.com/dndidjvfj/images/v1666231052/PSDI_Bhisma-2/PSDI_Bhisma-2.png?_i=AA" alt="foto staff">
-                                <img class="aktif" src="https://res.cloudinary.com/dndidjvfj/images/v1665511070/PSDI_Rifcha-1-1/PSDI_Rifcha-1-1.png?_i=AA" alt="foto staff">
-                            </div>
-                            <div class="division-bg"></div>
-                        </div>
-                        <div class="division-name">
-                            <div class="title-division-name aktif">
-                                Muhammad Bhisma Namaskara W.
-                            </div>
-                            <div class="title-division-name">
-                                Muhammad Rifcha Fadhila
-                            </div>
-                            <div class="job-division-stuck">
-                                staff
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="division-box">
-                            <div class="division-foto">
-                                <div class="division-foto-bg-2"></div>
-                                <div class="division-foto-bg"></div>
-                                <img src="https://res.cloudinary.com/dndidjvfj/images/v1665511042/Group-364-1/Group-364-1.png?_i=AA" alt="foto staff">
-                                <img class="aktif" src="https://res.cloudinary.com/dndidjvfj/images/v1665511046/Group-363-1/Group-363-1.png?_i=AA" alt="foto staff">
-                            </div>
-                            <div class="division-bg"></div>
-                        </div>
-                        <div class="division-name">
-                            <div class="title-division-name aktif">
-                                Muhamad Rofiq
-                            </div>
-                            <div class="title-division-name">
-                                Annisa Dhiyah Erfira
-                            </div>
-                            <div class="job-division-stuck">
-                                staff
-                            </div>
-                        </div>
-                    </li>
-					<li>
-                        <div class="division-box">
-                            <div class="division-foto">
-                                <div class="division-foto-bg-2"></div>
-                                <div class="division-foto-bg"></div>
-                                <img class="stuck" src="https://res.cloudinary.com/dndidjvfj/images/v1666231294/zara/zara.png?_i=AA" alt="foto staff">
-                            </div>
-                            <div class="division-bg"></div>
-                        </div>
-                        <div class="division-name">
-                            <div class="title-division-name-stuck">
-                                Zahra Aurora
-                            </div>
-                            <div class="job-division-stuck">
-                                staff
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
         </div>
-    </div>
+    </header>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        const fotodivisi = document.getElementById("division").getElementsByTagName("img");
-        const titlename = document.getElementById("division").getElementsByClassName("title-division-name");
-        const titlejob = document.getElementById("division").getElementsByClassName("job-division");
-        function swapfoto(){
-            for (let i = 0; i < fotodivisi.length; i++) {
-                fotodivisi[i].classList.toggle("aktif");
-            }
-            for (let i = 0; i < titlename.length; i++) {
-                titlename[i].classList.toggle("aktif");
-            }
-            for (let i = 0; i < titlejob.length; i++) {
-                titlejob[i].classList.toggle("aktif");
-            }
-            setTimeout(swapfoto, 10000);
-        }
-        swapfoto();
-    </script> 
+        AOS.init();
+    </script>
 </body>
+
 </html>
