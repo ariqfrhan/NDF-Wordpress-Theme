@@ -75,7 +75,11 @@
         }
 
         #foto-bph {
-            width: 850px;
+            width: 53vw;
+        }
+
+        #foto-staff{
+            width: 39vw;
         }
 
         /* Staff */
@@ -109,7 +113,7 @@
             }
         }
 
-        @media only screen and (min-width: 768px) and (max-width:1200px) {
+        @media only screen and (min-width: 768px) and (max-width:1194px) {
 
             #foto-bph {
                 padding-top: 13px;
@@ -122,7 +126,7 @@
             
         }
 
-        @media only screen and (min-width: 768px) and (max-width:1200px) and (orientation:landscape) {
+        @media only screen and (min-width: 768px) and (max-width:1194px) and (orientation:landscape) {
 
             #foto-bph {
                 width: 625px;
