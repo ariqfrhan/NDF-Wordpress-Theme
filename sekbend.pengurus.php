@@ -159,7 +159,7 @@
     <header id="hero">
         <div class="container">
             <div data-aos="zoom-in" class="col-lg-12">
-                <h1 id="nama-bidang" class="text-center">SEKBEND</h1>
+                <h1 id="nama-bidang" class="text-center">AnF</h1>
                 <h2 id="panjang-bidang" class="text-center fw-bold">Sekretaris dan Bendahara</h2>
             </div>
 
@@ -167,16 +167,17 @@
                 <div data-aos="fade-right" class="col-lg-4">
                     <div id="tupoksi" class="col">
                         <h3 class="fw-bold">Tupoksi</h3>
-                        <p class="pt-2">Merancang dan melaksanakan segala kegiatan yang berhubungan dengan distribusi, ekshibisi, dan apresiasi film-film hasil karya Nol Derajat Film.</p>
+                        <p class="pt-2">Berperan dalam mengurus segala sesuatu yang berkaitan dengan 
+                            kesekretariatan (termasuk administratif) dan perbendaharaan.</p>
                     </div>
                     <div id="proker" class="col mt-4">
                         <h3 class="fw-bold">Program Kerja</h3>
                         <ul class="pt-1 pb-2">
-                            <li>Staff of The Month</li>
-                            <li>Staff Report</li>
-                            <li>Suara Rakyat</li>
-                            <li>Makrab Nolder</li>
-                            <li>Upgrading Kepengurusan</li>
+                            <li>Pengadaan Identitas Organisasi</li>
+                            <li>Inventaris Nol Derajat Film</li>
+                            <li>Database Anggota</li>
+                            <li>Nolder Catalogue</li>
+                            <li>Administrasi</li>
                         </ul>
                     </div>
                 </div>
