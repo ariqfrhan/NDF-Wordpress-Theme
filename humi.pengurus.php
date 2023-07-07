@@ -7,10 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         /* Hero */
-        #content-post{
+        #title-post {
+            display: none;
+        }
+
+        #content-post {
             padding: 0;
             background: linear-gradient(90deg, rgba(127, 87, 138, 0.3172119487908962) 0%, rgba(243, 187, 44, 0.375875350140056) 86%);
         }
+
         #vr-glass {
             display: none;
         }
@@ -81,6 +86,68 @@
             padding: 5px;
             font-size: 32px;
         }
+
+        @media only screen and (max-width: 428px) {
+
+            #foto-bph {
+                padding-top: 13px;
+                width: 95vw;
+            }
+
+            #foto-staff {
+                width: 95vw;
+            }
+
+            #tupoksi p{
+                font-size: 12px;
+            }
+
+            #proker {
+                padding: 24px;
+                padding-bottom: 5px;
+                font-size: 12px;
+            }
+        }
+
+        @media only screen and (min-width: 768px) and (max-width:1200px) {
+
+            #foto-bph {
+                padding-top: 13px;
+                width: 83.5vw;
+            }
+
+            #foto-staff {
+                width: 83.5vw;
+            }
+            
+        }
+
+        @media only screen and (min-width: 768px) and (max-width:1200px) and (orientation:landscape) {
+
+            #foto-bph {
+                width: 625px;
+            }
+
+            #foto-staff {
+                width: 38.5vw;
+            }
+
+            #tupoksi {
+                padding: 24px;
+                padding-bottom: 5px;
+                font-size: 14px;
+            }
+
+            #tupoksi p{
+                font-size: 12px;
+            }
+
+            #proker {
+                padding: 24px;
+                padding-bottom: 5px;
+                font-size: 14px;
+            }
+        }
     </style>
 </head>
 
@@ -112,7 +179,7 @@
                     </div>
                 </div>
                 <div class="col-lg-8">
-                    <img data-aos="fade-left" id="foto-bph" src="http://nolderajatfilm.ub.ac.id/wp-content/uploads/2023/05/DEA.png">
+                    <img data-aos="fade-left" id="foto-bph" src="https://nolderajat.ub.ac.id/wp-content/uploads/2023/07/HUMI-BPH-card.png">
                 </div>
             </div>
 
@@ -121,15 +188,18 @@
                     <h1 data-aos="zoom-in" id="title-staff" class="text-center fw-bold">Staff</h1>
                 </div>
 
-                <div class="row justify-content-center">
+                <div class="row justify-content-center ">
                     <div data-aos="fade-right" class="col-lg-6 mt-3">
-                        <img id="foto-staff" src="http://nolderajatfilm.ub.ac.id/wp-content/uploads/2023/05/Staff-card-1.png">
+                        <img id="foto-staff" src="https://nolderajat.ub.ac.id/wp-content/uploads/2023/07/HUMI_Staff-card-1.png">
                     </div>
                     <div data-aos="fade-left" class="col-lg-6 mt-3">
-                        <img id="foto-staff" src="http://nolderajatfilm.ub.ac.id/wp-content/uploads/2023/05/Staff-card-1.png">
+                        <img id="foto-staff" src="https://nolderajat.ub.ac.id/wp-content/uploads/2023/07/HUMI_Staff-card-2.png">
                     </div>
                     <div data-aos="fade-up" class="col-lg-6 mt-4">
-                        <img id="foto-staff" src="http://nolderajatfilm.ub.ac.id/wp-content/uploads/2023/05/Staff-card-1.png">
+                        <img id="foto-staff" src="https://nolderajat.ub.ac.id/wp-content/uploads/2023/07/HUMI_Staff-card-3.png">
+                    </div>
+                    <div data-aos="fade-up" class="col-lg-6 mt-4">
+                        <img id="foto-staff" src="https://nolderajat.ub.ac.id/wp-content/uploads/2023/07/HUMI_Staff-card-4.png">
                     </div>
                 </div>
             </div>
