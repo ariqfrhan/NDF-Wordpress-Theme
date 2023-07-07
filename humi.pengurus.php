@@ -1,286 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        /* Hero */
         #content-post{
-            padding-right: 0;
+            padding: 0;
+            background: linear-gradient(90deg, rgba(127, 87, 138, 0.3172119487908962) 0%, rgba(243, 187, 44, 0.375875350140056) 86%);
         }
-        #title-post{
-          display: none;
+        #vr-glass {
+            display: none;
         }
-		@media (max-width: 600px) {
-            #content-post{
-                padding: 75px 0;
-            }
+
+        #hero {
+            height: auto;
+            padding-top: 15vh;
+            padding-bottom: 10vh;
+            font-family: 'Philosopher', sans-serif;
+        }
+
+        /* Judul */
+        #nama-bidang {
+            background-color: #8A5780;
+            color: white;
+            padding: 5px;
+            font-size: 52px;
+            font-weight: bold;
+        }
+
+        #panjang-bidang {
+            background-color: #F3BC2C;
+            color: #32524E;
+            padding: 5px;
+            margin-top: -1%;
+            font-size: 32px;
+        }
+
+        /* Proker-Kabid */
+        #kabid-proker {
+            padding-top: 1.5%;
+        }
+
+        #tupoksi {
+            border-radius: 10px;
+            background-color: #8A5780;
+            color: white;
+            padding: 25px;
+            padding-bottom: 10px;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 18px;
+            text-align: justify;
+        }
+
+        #proker {
+            border-radius: 10px;
+            background-color: #8A5780;
+            color: white;
+            padding: 28px;
+            padding-bottom: 5px;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 18px;
+        }
+
+        #proker li {
+            padding-top: 2px;
+        }
+
+        #foto-bph {
+            width: 850px;
+        }
+
+        /* Staff */
+
+        #title-staff {
+            background-color: #F3BC2C;
+            color: #32524E;
+            padding: 5px;
+            font-size: 32px;
         }
     </style>
 </head>
+
 <body>
-    <div id="pengurus-box">
-        <div class="pengurus-bg">
-            <div id="top-pengurus">
-                <div class="logo-pengurus">
-                    <img src="https://res.cloudinary.com/dndidjvfj/images/v1665510795/Asset-6-1/Asset-6-1.png?_i=AA" alt="logo-humi">
+    <header id="hero">
+        <div class="container">
+            <div data-aos="zoom-in" class="col-lg-12">
+                <h1 id="nama-bidang" class="text-center">HUMI</h1>
+                <h2 id="panjang-bidang" class="text-center fw-bold">Hubungan Masyarakat & Media Informatika</h2>
+            </div>
+
+            <div id="kabid-proker" class="row">
+                <div data-aos="fade-right" class="col-lg-4">
+                    <div id="tupoksi" class="col">
+                        <h3 class="fw-bold">Tupoksi</h3>
+                        <p class="pt-2">Merancang dan melaksanakan segala kegiatan yang berhubungan dengan distribusi, ekshibisi, dan apresiasi film-film hasil karya Nol Derajat Film.</p>
+                    </div>
+                    <div id="proker" class="col mt-4">
+                        <h3 class="fw-bold">Program Kerja</h3>
+                        <ul class="pt-1 pb-2">
+                            <li>Festival Film</li>
+                            <li>Kunjungan Komunitas</li>
+                            <li>Design Class</li>
+                            <li>What’s On This Week (WOTW)</li>
+                            <li>What’s Up Sineas (WUS)</li>
+                            <li>Movie Education (Motion)</li>
+                            <li>Podcast: Tongkrongan Anak Film</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="desc-pengurus">
-                    <div class="title-pengurus">humi</div>
-                    <div class="isi-pengurus">humas, media informasi,& informatika</div>
-                    <div class="content-desc-pengurus">
-                        Program Kerja: <br>Festival Film, Kunjungan Komunitas, Design Class, Pengelolaan Official Account, What’s On This Week (WOTW), What’s Up Sineas (WUS), Movie Education (Motion), Podcast: Tongkrongan Anak FIlm.
+                <div class="col-lg-8">
+                    <img data-aos="fade-left" id="foto-bph" src="http://nolderajatfilm.ub.ac.id/wp-content/uploads/2023/05/DEA.png">
+                </div>
+            </div>
+
+            <div id="staff" class="pt-4">
+                <div class="col-lg-12">
+                    <h1 data-aos="zoom-in" id="title-staff" class="text-center fw-bold">Staff</h1>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div data-aos="fade-right" class="col-lg-6 mt-3">
+                        <img id="foto-staff" src="http://nolderajatfilm.ub.ac.id/wp-content/uploads/2023/05/Staff-card-1.png">
+                    </div>
+                    <div data-aos="fade-left" class="col-lg-6 mt-3">
+                        <img id="foto-staff" src="http://nolderajatfilm.ub.ac.id/wp-content/uploads/2023/05/Staff-card-1.png">
+                    </div>
+                    <div data-aos="fade-up" class="col-lg-6 mt-4">
+                        <img id="foto-staff" src="http://nolderajatfilm.ub.ac.id/wp-content/uploads/2023/05/Staff-card-1.png">
                     </div>
                 </div>
             </div>
-            <div id="division">
-                <ul>
-                    <li style="display:flex; width: 100%;">
-                        <div class="division-box">
-                            <div class="division-foto">
-                                <div class="division-foto-bg-2"></div>
-                                <div class="division-foto-bg"></div>
-                                <img class="stuck" src="https://res.cloudinary.com/dndidjvfj/images/v1665511005/hikmah-web-2-1-1/hikmah-web-2-1-1.png?_i=AA" alt="foto ketua humi">
-                            </div>
-                            <div class="division-bg"></div>
-                        </div>
-                        <div class="division-name">
-                            <div class="title-division-name-stuck">
-                                Hikmah Mardhiyyah
-                            </div>
-                            <div class="job-division-stuck">
-                                ketua bidang
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="division-box">
-                            <div class="division-foto">
-                                <div class="division-foto-bg-2"></div>
-                                <div class="division-foto-bg"></div>
-                                <img src="https://res.cloudinary.com/dndidjvfj/images/v1665510997/Jenpik-1-1/Jenpik-1-1.png?_i=AA" alt="foto wakil ketua">
-                                <img class="aktif" src="https://res.cloudinary.com/dndidjvfj/images/v1665511024/fath-1-1/fath-1-1.png?_i=AA" alt="foto staff">
-                            </div>
-                            <div class="division-bg"></div>
-                        </div>
-                        <div class="division-name">
-                            <div class="title-division-name aktif">
-                                Zain Fikri Rabbani
-                            </div>
-                            <div class="title-division-name">
-                                Nur Fathiyyah
-                            </div>
-                            <div class="job-division aktif">
-                                wakil ketua bidang
-                            </div>
-                            <div class="job-division">
-                                staff
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="division-box">
-                            <div class="division-foto">
-                                <div class="division-foto-bg-2"></div>
-                                <div class="division-foto-bg"></div>
-                                <img src="https://res.cloudinary.com/dndidjvfj/images/v1665510802/Ryan/Ryan.png?_i=AA" alt="foto wakil ketua">
-                                <img class="aktif" src="https://res.cloudinary.com/dndidjvfj/images/v1665511029/Dimas-Satya-1-1/Dimas-Satya-1-1.png?_i=AA" alt="foto staff">
-                            </div>
-                            <div class="division-bg"></div>
-                        </div>
-                        <div class="division-name">
-                            <div class="title-division-name aktif">
-                                Ahmad Ryan Permana
-                            </div>
-                            <div class="title-division-name">
-                                Dimas Satya Yusuf Pamungkas
-                            </div>
-                            <div class="job-division aktif">
-                                wakil ketua bidang
-                            </div>
-                            <div class="job-division">
-                                staff
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="division-box">
-                            <div class="division-foto">
-                                <div class="division-foto-bg-2"></div>
-                                <div class="division-foto-bg"></div>
-                                <img src="https://res.cloudinary.com/dndidjvfj/images/v1665511001/Irvan-1-1/Irvan-1-1.png?_i=AA" alt="foto wakil ketua">
-                                <img class="aktif" src="https://res.cloudinary.com/dndidjvfj/images/v1665510961/alif-1-1/alif-1-1.png?_i=AA" alt="foto staff">
-                            </div>
-                            <div class="division-bg"></div>
-                        </div>
-                        <div class="division-name">
-                            <div class="title-division-name aktif">
-                                Muhammad Irvan Hanif
-                            </div>
-                            <div class="title-division-name">
-                                Alif Muhammad Abrar Erlangga
-                            </div>
-                            <div class="job-division aktif">
-                                wakil ketua bidang
-                            </div>
-                            <div class="job-division">
-                                staff
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="division-box">
-                            <div class="division-foto">
-                                <div class="division-foto-bg-2"></div>
-                                <div class="division-foto-bg"></div>
-                                <img src="https://res.cloudinary.com/dndidjvfj/images/v1665510953/calya-1-1/calya-1-1.png?_i=AA" alt="foto staff">
-                                <img class="aktif" src="https://res.cloudinary.com/dndidjvfj/images/v1665510965/texture-1-3/texture-1-3.png?_i=AA" alt="foto staff">
-                            </div>
-                            <div class="division-bg"></div>
-                        </div>
-                        <div class="division-name">
-                            <div class="title-division-name aktif">
-                                Calya Rahmanata Deyasari Putri
-                            </div>
-                            <div class="title-division-name">
-                                Astri Aprilia
-                            </div>
-                            <div class="job-division-stuck">
-                                staff
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="division-box">
-                            <div class="division-foto">
-                                <div class="division-foto-bg-2"></div>
-                                <div class="division-foto-bg"></div>
-                                <img class="aktif" src="https://res.cloudinary.com/dndidjvfj/images/v1665511013/Foto-fio-fix-1-1/Foto-fio-fix-1-1.png?_i=AA" alt="foto staff">
-                                <img src="https://res.cloudinary.com/dndidjvfj/images/v1665511018/Fikri-1-1/Fikri-1-1.png?_i=AA" alt="foto staff">
-                            </div>
-                            <div class="division-bg"></div>
-                        </div>
-                        <div class="division-name">
-                            <div class="title-division-name aktif">
-                                Ainul Fikri Hartono
-                            </div>
-                            <div class="title-division-name">
-                                Fio Intan Amaliah
-                            </div>
-                            <div class="job-division-stuck">
-                                staff
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="division-box">
-                            <div class="division-foto">
-                                <div class="division-foto-bg-2"></div>
-                                <div class="division-foto-bg"></div>
-                                <img src="https://res.cloudinary.com/dndidjvfj/images/v1665511009/Hanindya-Fadhillah-1-1/Hanindya-Fadhillah-1-1.png?_i=AA" alt="foto staff">
-                                <img class="aktif" src="https://res.cloudinary.com/dndidjvfj/images/v1666231174/amet-web-2-1/amet-web-2-1.png?_i=AA" alt="foto staff">
-                            </div>
-                            <div class="division-bg"></div>
-                        </div>
-                        <div class="division-name">
-                            <div class="title-division-name aktif">
-                                Hanindya Fadhillah Utomo
-                            </div>
-                            <div class="title-division-name">
-                                Ahmad Pratama
-                            </div>
-                            <div class="job-division-stuck">
-                                staff
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="division-box">
-                            <div class="division-foto">
-                                <div class="division-foto-bg-2"></div>
-                                <div class="division-foto-bg"></div>
-                                <img src="https://res.cloudinary.com/dndidjvfj/images/v1665510975/Si-intan_-1-1/Si-intan_-1-1.png?_i=AA" alt="foto staff">
-                                <img class="aktif" src="https://res.cloudinary.com/dndidjvfj/images/v1666231195/texture-1-1/texture-1-1.png?_i=AA" alt="foto staff">
-                            </div>
-                            <div class="division-bg"></div>
-                        </div>
-                        <div class="division-name">
-                            <div class="title-division-name aktif">
-                                Intan Veronika Sembiring
-                            </div>
-                            <div class="title-division-name">
-                                Salsabilla Juliana Putri
-                            </div>
-                            <div class="job-division-stuck">
-                                staff
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="division-box">
-                            <div class="division-foto">
-                                <div class="division-foto-bg-2"></div>
-                                <div class="division-foto-bg"></div>
-                                <img src="https://res.cloudinary.com/dndidjvfj/images/v1665510987/kiw-Adli-Alfian-1-1/kiw-Adli-Alfian-1-1.png?_i=AA" alt="foto staff">
-                                <img class="aktif" src="https://res.cloudinary.com/dndidjvfj/images/v1665510983/Mayun-Suryatama-1-1/Mayun-Suryatama-1-1.png?_i=AA" alt="foto staff">
-                            </div>
-                            <div class="division-bg"></div>
-                        </div>
-                        <div class="division-name">
-                            <div class="title-division-name aktif">
-                                Adli Alfian
-                            </div>
-                            <div class="title-division-name">
-                                I Gusti Ngurah Mayun Suryatama Giri Putra
-                            </div>
-                            <div class="job-division-stuck">
-                                staff
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="division-box">
-                            <div class="division-foto">
-                                <div class="division-foto-bg-2"></div>
-                                <div class="division-foto-bg"></div>
-                                <img src="https://res.cloudinary.com/dndidjvfj/images/v1665510979/Nevaa-1-1/Nevaa-1-1.png?_i=AA" alt="foto staff">
-                                <img class="aktif" src="https://res.cloudinary.com/dndidjvfj/images/v1665510992/kefin_-1-1/kefin_-1-1.png?_i=AA" alt="foto staff">
-                            </div>
-                            <div class="division-bg"></div>
-                        </div>
-                        <div class="division-name">
-                            <div class="title-division-name aktif">
-                                Nevalika Syawina Rahmada
-                            </div>
-                            <div class="title-division-name">
-                                Kefin Adi Saputra
-                            </div>
-                            <div class="job-division-stuck">
-                                staff
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
         </div>
-    </div>
+    </header>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        const fotodivisi = document.getElementById("division").getElementsByTagName("img");
-        const titlename = document.getElementById("division").getElementsByClassName("title-division-name");
-        const titlejob = document.getElementById("division").getElementsByClassName("job-division");
-        function swapfoto(){
-            for (let i = 0; i < fotodivisi.length; i++) {
-                fotodivisi[i].classList.toggle("aktif");
-            }
-            for (let i = 0; i < titlename.length; i++) {
-                titlename[i].classList.toggle("aktif");
-            }
-            for (let i = 0; i < titlejob.length; i++) {
-                titlejob[i].classList.toggle("aktif");
-            }
-            setTimeout(swapfoto, 10000);
-        }
-        swapfoto();
-    </script> 
+        AOS.init();
+    </script>
 </body>
+
 </html>
