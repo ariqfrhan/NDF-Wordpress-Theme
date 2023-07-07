@@ -75,11 +75,11 @@
         }
 
         #foto-bph {
-            width: 53vw;
+            width: 56vw;
         }
 
         #foto-staff{
-            width: 39vw;
+            width: 41vw;
         }
 
         /* Staff */

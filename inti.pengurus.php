@@ -1,79 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        #content-post{
-            padding-right: 0;
-        }
-        #title-post{
+        /* Hero */
+        #title-post {
             display: none;
         }
-		@media (max-width: 600px) {
-            #content-post{
-                padding: 75px 0;
+
+        #content-post {
+            padding: 0;
+            background: linear-gradient(90deg, rgba(127, 87, 138, 0.3172119487908962) 0%, rgba(243, 187, 44, 0.375875350140056) 86%);
+        }
+
+        #vr-glass {
+            display: none;
+        }
+
+        #hero {
+            height: auto;
+            padding-top: 15vh;
+            padding-bottom: 10vh;
+            font-family: 'Philosopher', sans-serif;
+        }
+
+        /* Judul */
+        #nama-bidang {
+            background-color: #8A5780;
+            color: white;
+            padding: 5px;
+            font-size: 52px;
+            font-weight: bold;
+        }
+
+        #panjang-bidang {
+            background-color: #F3BC2C;
+            color: #32524E;
+            padding: 5px;
+            margin-top: -1%;
+            font-size: 32px;
+        }
+
+        /* Proker-Kabid */
+        #kabid-proker {
+            padding-top: 1.5%;
+        }
+
+        #tupoksi {
+            border-radius: 10px;
+            background-color: #8A5780;
+            color: white;
+            padding: 25px;
+            padding-bottom: 10px;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 18px;
+            text-align: justify;
+        }
+
+        #proker {
+            border-radius: 10px;
+            background-color: #8A5780;
+            color: white;
+            padding: 28px;
+            padding-bottom: 5px;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 18px;
+        }
+
+        #proker li {
+            padding-top: 2px;
+        }
+
+        #foto-bph {
+            width: 56vw;
+        }
+
+        #foto-staff{
+            width: 41vw;
+        }
+
+        /* Staff */
+
+        #title-staff {
+            background-color: #F3BC2C;
+            color: #32524E;
+            padding: 5px;
+            font-size: 32px;
+        }
+
+        @media only screen and (max-width: 428px) {
+
+            #foto-bph {
+                padding-top: 13px;
+                width: 95vw;
+            }
+
+            #foto-staff {
+                width: 95vw;
+            }
+
+            #tupoksi p{
+                font-size: 12px;
+            }
+
+            #proker {
+                padding: 24px;
+                padding-bottom: 5px;
+                font-size: 12px;
+            }
+        }
+
+        @media only screen and (min-width: 768px) and (max-width:1194px) {
+
+            #foto-bph {
+                padding-top: 13px;
+                width: 83.5vw;
+            }
+
+            #foto-staff {
+                width: 83.5vw;
+            }
+            
+        }
+
+        @media only screen and (min-width: 768px) and (max-width:1194px) and (orientation:landscape) {
+
+            #foto-bph {
+                width: 625px;
+            }
+
+            #foto-staff {
+                width: 38.5vw;
+            }
+
+            #tupoksi {
+                padding: 24px;
+                padding-bottom: 5px;
+                font-size: 14px;
+            }
+
+            #tupoksi p{
+                font-size: 12px;
+            }
+
+            #proker {
+                padding: 24px;
+                padding-bottom: 5px;
+                font-size: 14px;
             }
         }
     </style>
 </head>
+
 <body>
-    <div id="pengurus-box">
-        <div class="pengurus-bg">
-            <div id="top-pengurus">
-                <div class="logo-pengurus">
-                    <img src="http://nolderajatfilm.ub.ac.id/wp-content/uploads/2022/09/inti-logo.png" alt="logo-inti">
-                </div>
-                <div class="desc-pengurus">
-                    <div class="title-pengurus">inti</div>
-                    <div class="isi-pengurus">Ketua Umum dan Wakil Ketua Umum</div>
-                    <div class="content-desc-pengurus">
-                        Program Kerja: HUT Nol Derajat Film.
+    <header id="hero">
+        <div class="container">
+            <div data-aos="zoom-in" class="col-lg-12">
+                <h1 id="nama-bidang" class="text-center">INTI</h1>
+                <h2 id="panjang-bidang" class="text-center fw-bold">Ketua Umum & Wakil Ketua Umum</h2>
+            </div>
+
+            <div id="kabid-proker" class="row">
+                <div data-aos="fade-right" class="col-lg-4">
+                    <div id="tupoksi" class="col">
+                        <h3 class="fw-bold">Tupoksi</h3>
+                        <p class="pt-2">Merancang dan melaksanakan segala kegiatan yang berhubungan dengan distribusi, ekshibisi, dan apresiasi film-film hasil karya Nol Derajat Film.</p>
+                    </div>
+                    <div id="proker" class="col mt-4">
+                        <h3 class="fw-bold">Program Kerja</h3>
+                        <ul class="pt-1 pb-2">
+                            <li>Distribusi Film</li>
+                            <li>Review Film</li>
+                            <li>Piknik Sinema</li>
+                            <li>Bincang Sineas</li>
+                            <li>Brawijaya FIlm Festival (BYFEST)</li>
+                        </ul>
                     </div>
                 </div>
-            </div>
-            <div id="division">
-                <ul>
-                    <li>
-                        <div class="division-box">
-                            <div class="division-foto">
-                                <div class="division-foto-bg-2"></div>
-                                <div class="division-foto-bg"></div>
-                                <img class="stuck" src="http://nolderajatfilm.ub.ac.id/wp-content/uploads/2022/09/Satria_2-1.png" alt="foto ketua umum">
-                            </div>
-                            <div class="division-bg"></div>
-                        </div>
-                        <div class="division-name">
-                            <div class="title-division-name-stuck">
-                                Satria Santika
-                            </div>
-                            <div class="job-division-stuck">
-                                ketua umum
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="division-box">
-                            <div class="division-foto">
-                                <div class="division-foto-bg-2"></div>
-                                <div class="division-foto-bg"></div>
-                                <img class="stuck" src="http://nolderajatfilm.ub.ac.id/wp-content/uploads/2022/09/divaeee_ppt-1.png" alt="foto wakil ketua umum">
-                            </div>
-                            <div class="division-bg"></div>
-                        </div>
-                        <div class="division-name">
-                            <div class="title-division-name-stuck">
-                                Yosephina Diva
-                            </div>
-                            <div class="job-division-stuck">
-                                wakil ketua umum
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+                <div class="col-lg-8">
+                    <img data-aos="fade-left" id="foto-bph" src="https://nolderajat.ub.ac.id/wp-content/uploads/2023/07/HUMI-BPH-card.png">
+                </div>
             </div>
         </div>
-    </div>
+    </header>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>
