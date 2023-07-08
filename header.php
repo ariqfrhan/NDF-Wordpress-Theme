@@ -33,13 +33,13 @@
                         <li onclick="location.href = '#pengurus'">
                             <p id="submenu-title">PANORAMA</p>
                         </li>
-                        <!-- <li onclick="location.href = 'http://nolderajatfilm.ub.ac.id/ketua-umum-dan-wakil-ketua-umum/'"><p id="submenu-title">Inti</p></li>
-                        <li onclick="location.href = 'http://nolderajatfilm.ub.ac.id/sekretaris-bendahara-sekbend/'"><p id="submenu-title">AnF</p></li>
-                        <li onclick="location.href = 'http://nolderajatfilm.ub.ac.id/pengembangan-sumber-daya-internal-psdi/'"><p id="submenu-title">PSDI</p></li>
-                        <li onclick="location.href = 'http://nolderajatfilm.ub.ac.id/pengembangan-sumber-daya-manusia-psdm/'"><p id="submenu-title">PSDM</p></li>
-                        <li onclick="location.href = 'http://nolderajatfilm.ub.ac.id/distribusi-eksibisi-dan-apresiasi-dea/'"><p id="submenu-title">DEA</p></li>
-                        <li onclick="location.href = 'http://nolderajatfilm.ub.ac.id/produksi-2/'"><p id="submenu-title">Produksi</p></li>
-                        <li onclick="location.href = 'http://nolderajatfilm.ub.ac.id/hubungan-masyarakat-dan-media-informatika-humi/'"><p id="submenu-title">HUMI</p></li> -->
+                        <li onclick="location.href = 'https://nolderajat.ub.ac.id/pengurus-inti/'"><p id="submenu-title">Inti</p></li>
+                        <li onclick="location.href = 'https://nolderajat.ub.ac.id/pengurus-anf/'"><p id="submenu-title">AnF</p></li>
+                        <li onclick="location.href = 'https://nolderajat.ub.ac.id/pengurus-psdi/'"><p id="submenu-title">PSDI</p></li>
+                        <li onclick="location.href = 'https://nolderajat.ub.ac.id/pengurus-psdm/'"><p id="submenu-title">PSDM</p></li>
+                        <li onclick="location.href = 'https://nolderajat.ub.ac.id/pengurus-dea/'"><p id="submenu-title">DEA</p></li>
+                        <li onclick="location.href = 'https://nolderajat.ub.ac.id/pengurus-produksi/'"><p id="submenu-title">Produksi</p></li>
+                        <li onclick="location.href = 'https://nolderajat.ub.ac.id/pengurus-humi/'"><p id="submenu-title">HUMI</p></li>
                     </ul>
                 </li>
                 <li id="menu-title">
