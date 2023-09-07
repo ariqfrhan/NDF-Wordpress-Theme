@@ -167,21 +167,17 @@
                 <div data-aos="fade-right" class="col-lg-4">
                     <div id="tupoksi" class="col">
                         <h3 class="fw-bold">Tupoksi</h3>
-                        <p class="pt-2">Merancang dan melaksanakan segala kegiatan yang berhubungan dengan distribusi, ekshibisi, dan apresiasi film-film hasil karya Nol Derajat Film.</p>
+                        <p class="pt-2">Bertanggung jawab dalam mengoordinasikan kegiatan dan pengembangan Nol Derajat Film dalam bentuk pelaksanaan program kerja bersama dengan seluruh jajaran pengurus.</p>
                     </div>
                     <div id="proker" class="col mt-4">
                         <h3 class="fw-bold">Program Kerja</h3>
                         <ul class="pt-1 pb-2">
-                            <li>Distribusi Film</li>
-                            <li>Review Film</li>
-                            <li>Piknik Sinema</li>
-                            <li>Bincang Sineas</li>
-                            <li>Brawijaya FIlm Festival (BYFEST)</li>
+                            <li>HUT Nol Derajat Film</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-8">
-                    <img data-aos="fade-left" id="foto-bph" src="https://nolderajat.ub.ac.id/wp-content/uploads/2023/07/HUMI-BPH-card.png">
+                    <img data-aos="fade-left" id="foto-bph" src="https://nolderajat.ub.ac.id/wp-content/uploads/2023/07/INTI-BPH-card.png">
                 </div>
             </div>
         </div>

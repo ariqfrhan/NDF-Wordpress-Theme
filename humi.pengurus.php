@@ -205,6 +205,9 @@
                     <div data-aos="fade-up" class="col-lg-6 mt-4">
                         <img id="foto-staff" src="https://nolderajat.ub.ac.id/wp-content/uploads/2023/07/HUMI_Staff-card-4.png">
                     </div>
+                    <div data-aos="fade-up" class="col-lg-6 mt-4">
+                        <img id="foto-staff" src="https://nolderajat.ub.ac.id/wp-content/uploads/2023/07/HUMI_Staff-card-5.png">
+                    </div>
                 </div>
             </div>
         </div>

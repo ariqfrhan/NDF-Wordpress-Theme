@@ -78,7 +78,7 @@
             width: 56vw;
         }
 
-        #foto-staff{
+        #foto-staff {
             width: 41vw;
         }
 
@@ -102,7 +102,7 @@
                 width: 95vw;
             }
 
-            #tupoksi p{
+            #tupoksi p {
                 font-size: 12px;
             }
 
@@ -123,7 +123,7 @@
             #foto-staff {
                 width: 83.5vw;
             }
-            
+
         }
 
         @media only screen and (min-width: 768px) and (max-width:1194px) and (orientation:landscape) {
@@ -142,7 +142,7 @@
                 font-size: 14px;
             }
 
-            #tupoksi p{
+            #tupoksi p {
                 font-size: 12px;
             }
 
@@ -159,29 +159,31 @@
     <header id="hero">
         <div class="container">
             <div data-aos="zoom-in" class="col-lg-12">
-                <h1 id="nama-bidang" class="text-center">SEKBEND</h1>
-                <h2 id="panjang-bidang" class="text-center fw-bold">Sekretaris dan Bendahara</h2>
+                <h1 id="nama-bidang" class="text-center">AnF</h1>
+                <h2 id="panjang-bidang" class="text-center fw-bold">Administration & Finance</h2>
             </div>
 
             <div id="kabid-proker" class="row">
                 <div data-aos="fade-right" class="col-lg-4">
                     <div id="tupoksi" class="col">
                         <h3 class="fw-bold">Tupoksi</h3>
-                        <p class="pt-2">Merancang dan melaksanakan segala kegiatan yang berhubungan dengan distribusi, ekshibisi, dan apresiasi film-film hasil karya Nol Derajat Film.</p>
+                        <p class="pt-2">Berperan dalam mengurus segala sesuatu yang berkaitan dengan
+                            kesekretariatan (termasuk administratif) dan perbendaharaan.</p>
                     </div>
                     <div id="proker" class="col mt-4">
                         <h3 class="fw-bold">Program Kerja</h3>
                         <ul class="pt-1 pb-2">
-                            <li>Staff of The Month</li>
-                            <li>Staff Report</li>
-                            <li>Suara Rakyat</li>
-                            <li>Makrab Nolder</li>
-                            <li>Upgrading Kepengurusan</li>
+                            <li>Pengadaan Identitas Organisasi</li>
+                            <li>Inventaris Nol Derajat Film</li>
+                            <li>Database Anggota</li>
+                            <li>Nolder Catalogue</li>
+                            <li>Administrasi</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-8">
-                    <img data-aos="fade-left" id="foto-bph" src="https://nolderajat.ub.ac.id/wp-content/uploads/2023/07/HUMI-BPH-card.png">
+                    <img data-aos="fade-left" id="foto-bph"
+                        src="https://nolderajat.ub.ac.id/wp-content/uploads/2023/07/ANF-BPH-card.png">
                 </div>
             </div>
 
@@ -192,9 +194,10 @@
 
                 <div class="row justify-content-center ">
                     <div data-aos="fade-right" class="col-lg-6 mt-3">
-                        <img id="foto-staff" src="https://nolderajat.ub.ac.id/wp-content/uploads/2023/07/HUMI_Staff-card-1.png">
+                        <img id="foto-staff"
+                            src="https://nolderajat.ub.ac.id/wp-content/uploads/2023/07/ANF_Staff-card-1.png">
                     </div>
-                    <div data-aos="fade-left" class="col-lg-6 mt-3">
+                    <!-- <div data-aos="fade-left" class="col-lg-6 mt-3">
                         <img id="foto-staff" src="https://nolderajat.ub.ac.id/wp-content/uploads/2023/07/HUMI_Staff-card-2.png">
                     </div>
                     <div data-aos="fade-up" class="col-lg-6 mt-4">
@@ -202,13 +205,15 @@
                     </div>
                     <div data-aos="fade-up" class="col-lg-6 mt-4">
                         <img id="foto-staff" src="https://nolderajat.ub.ac.id/wp-content/uploads/2023/07/HUMI_Staff-card-4.png">
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     </header>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
